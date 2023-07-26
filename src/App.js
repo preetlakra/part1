@@ -1,6 +1,11 @@
 const Hello = (props) => {
+  // here i write functions
+
+
   return (
+    // here i call the functions 
     <div>
+      
       <p>Hello {props.name},  You are {props.age} years old. </p>
     </div>
   )
@@ -18,7 +23,7 @@ const App = () => {
 
       <Hello name="Preet Lakra" age='30' />
       
-      
+    
       
     </div>
   )
