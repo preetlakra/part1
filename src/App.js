@@ -60,6 +60,7 @@ const App = () => {
       <Header course = {course} />
       <Content parts= {parts} />
       <Total parts= {parts} />
+      <Total />
 
     </div>
   )
